@@ -1,0 +1,24 @@
+{
+  "name": "Haikus for june",
+  "workspaceFolder": "/workspace",
+
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+
+  "remoteUser": "node",
+
+  "runServices": [],
+
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  "postCreateCommand": "npm install",
+
+  "extensions": [
+	"esbenp.prettier-vscode",
+	"MS-vsliveshare.vsliveshare"
+],
+
+  "forwardPorts": [3000]
+}
