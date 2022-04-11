@@ -9,11 +9,7 @@
 
   "runServices": [],
 
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-
-  "postCreateCommand": "npm install",
+   "postCreateCommand": "npm install",
 
   "extensions": [
 	"esbenp.prettier-vscode",
