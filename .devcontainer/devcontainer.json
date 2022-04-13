@@ -29,6 +29,11 @@
           "permissions": {
             "issues": "write"
           }
+        },
+	"ataridotcom/reallycoolrepo": {
+          "permissions": {
+            "issues": "write"
+          }
         }
       }
     }
