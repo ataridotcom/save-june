@@ -32,7 +32,8 @@
         },
 	"ataridotcom/reallycoolrepo": {
           "permissions": {
-            "issues": "write"
+            "issues": "write",
+	    "pull-requests": "write"
           }
         }
       }
