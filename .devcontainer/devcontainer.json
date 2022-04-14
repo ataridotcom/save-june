@@ -32,7 +32,7 @@
         },
 	"ataridotcom/reallycoolrepo": {
           "permissions": {
-            "issues": "write"
+            "write-all"
           }
         }
       }
