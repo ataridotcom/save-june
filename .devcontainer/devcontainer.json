@@ -2,13 +2,7 @@
   "name": "Haikus for june",
   "workspaceFolder": "/workspace",
 
-//specify min machine type requirements 	  
-  "hostRequirements": {
-    "cpus": 8
-    "storage": "16gb",
-    "memory": "64gb"
-  },
-	
+
 //container image to be assembled 
   "dockerComposeFile": "docker-compose.yml",
   "service": "web",
