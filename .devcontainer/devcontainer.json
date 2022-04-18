@@ -2,19 +2,29 @@
   "name": "Haikus for june",
   "workspaceFolder": "/workspace",
 
+//specify min machine type requirements 	  
+  "hostRequirements": {
+    "cpus": 8
+    "storage": "16gb",
+    "memory": "64gb"
+  },
+	
+//container image to be assembled 
   "dockerComposeFile": "docker-compose.yml",
   "service": "web",
 
   "remoteUser": "node",
 
   "runServices": [],
-
+//commands automatically run after codespace creation
    "postCreateCommand": "npm install",
 
+//vscode extensions for the team 
   "extensions": [
 	"esbenp.prettier-vscode",
 	"MS-vsliveshare.vsliveshare"
 ],
 
+//ports to be forwarded from inside the container to the local machine
   "forwardPorts": [3000]
 }
